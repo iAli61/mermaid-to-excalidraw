@@ -1,0 +1,13 @@
+{
+  "name": "mermaid-to-excalidraw-converter",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Convert Mermaid code blocks in Markdown to .excalidraw.svg files",
+  "scripts": {
+    "convert": "node convert_mermaid_to_excalidraw.mjs",
+    "install:browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.50.0"
+  }
+}
